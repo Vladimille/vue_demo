@@ -1,6 +1,6 @@
 <template>
     <div class="app-wrapper">
-        <Header></Header>
+        <Header :header_text="'网页头部'"></Header>
         <Main></Main>
         <Footer></Footer>
     </div>
@@ -26,4 +26,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.app-wrapper{
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
 </style>
