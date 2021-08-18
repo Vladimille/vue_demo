@@ -2,7 +2,7 @@
     <div class="app-wrapper">
         <Header :header_text="'网页头部'"></Header>
         <Main></Main>
-        <Footer></Footer>
+        <Footer class="footer"></Footer>
     </div>
 </template>
 <script>
@@ -21,17 +21,24 @@ export default {
         }
     },
     methods: {
-    }
+    },
+    mounted() {
+    },
+    computed: {
+  }
 }
 </script>
 
 <style lang="scss" scoped>
 .app-wrapper{
-    height: 100%;
     background: #fff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    min-height: 100%;
+    .footer{
+        margin-top: auto;
+    }
 }
 </style>

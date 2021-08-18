@@ -32,7 +32,7 @@ export default {
     height: 49px;
     width: 1280px;
     margin: 0 auto;
-    border-bottom: 1px #ccc solid;
+    border-bottom: 1px #bbb solid;
     display: flex;
     justify-content: space-between;
     .left-title{

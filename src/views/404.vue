@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="box404">
     404 not found
   </div>
 </template>
@@ -15,5 +15,10 @@ export default {
 };
  
 </script>
-<style scoped>
+<style lang="scss" scoped>
+.box404{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
 </style>
